@@ -6,7 +6,9 @@ https://www.tooplate.com/view/2122-nano-folio
 
 */
 
-html { overflow-x: hidden; }
+html {
+    overflow-x: hidden;
+}
 
 body {
     margin: 0;
@@ -23,17 +25,33 @@ a {
     color: #38CCCC;
 }
 
-a:hover { color: #30ADAD; }
+a:hover {
+    color: #30ADAD;
+}
 
-.tm-about-text a { color: #9F6; }
+.tm-about-text a {
+    color: #9F6;
+}
 
-h1, h2, p, i, address, .tm-text-white { color: white; }
+h1,
+h2,
+p,
+i,
+address,
+.tm-text-white {
+    color: white;
+}
 
-.tm-link-gray { color: #999999; }
-.tm-link-white { color: white; }
+.tm-link-gray {
+    color: #999999;
+}
 
-.tm-footer { 
-    color: #999999; 
+.tm-link-white {
+    color: white;
+}
+
+.tm-footer {
+    color: #999999;
     text-align: center;
 }
 
@@ -45,7 +63,9 @@ h1, h2, p, i, address, .tm-text-white { color: white; }
     padding: 60px 15px;
 }
 
-.tm-site-header { height: 470px; }
+.tm-site-header {
+    height: 470px;
+}
 
 .tm-flex-center {
     display: flex;
@@ -59,25 +79,37 @@ h1, h2, p, i, address, .tm-text-white { color: white; }
     display: flex;
 }
 
-.tm-contact { flex-direction: row-reverse; }
-.tm-about > div { flex: 1 1; }
+.tm-contact {
+    flex-direction: row-reverse;
+}
+
+.tm-about>div {
+    flex: 1 1;
+}
 
 .tm-contact-form-container,
 .tm-contact-info {
     width: 40%;
 }
 
-.tm-contact-info { padding-top: 20px; }
-.tm-contact-header { width: 20%; }
+.tm-contact-info {
+    padding-top: 20px;
+}
+
+.tm-contact-header {
+    width: 20%;
+}
 
 .tm-contact-header {
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.tm-contact { padding: 50px 20px; }
+.tm-contact {
+    padding: 50px 20px;
+}
 
-.tm-contact > div {
+.tm-contact>div {
     padding-left: 34px;
     padding-right: 34px;
     box-sizing: border-box;
@@ -103,10 +135,24 @@ textarea {
     width: 100%;
 }
 
-::-webkit-input-placeholder { color: white; } /* Edge */
-:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */
-::placeholder { color: white; }
-.tm-right { margin-right: 0; margin-left: auto; }
+::-webkit-input-placeholder {
+    color: white;
+}
+
+/* Edge */
+:-ms-input-placeholder {
+    color: white;
+}
+
+/* Internet Explorer 10-11 */
+::placeholder {
+    color: white;
+}
+
+.tm-right {
+    margin-right: 0;
+    margin-left: auto;
+}
 
 .tm-btn-submit {
     background: none;
@@ -117,7 +163,9 @@ textarea {
     transition: all 0.3s ease;
 }
 
-.tm-btn-submit:hover { color: #000000; }
+.tm-btn-submit:hover {
+    color: #000000;
+}
 
 .tm-social-link {
     width: 40px;
@@ -134,16 +182,30 @@ textarea {
     transition: all 0.3s ease;
 }
 
-.tm-social-link:hover i.fa-facebook { color: #3b5998; }
-.tm-social-link:hover i.fa-twitter { color: #00acee; }
-.tm-social-link:hover i.fa-instagram { color: #3f729b; }
-.tm-flex { display: flex; }
-address { font-style: normal; }
+.tm-social-link:hover i.fa-facebook {
+    color: #3b5998;
+}
+
+.tm-social-link:hover i.fa-twitter {
+    color: #00acee;
+}
+
+.tm-social-link:hover i.fa-instagram {
+    color: #3f729b;
+}
+
+.tm-flex {
+    display: flex;
+}
+
+address {
+    font-style: normal;
+}
 
 .filters-button-group {
     text-align: right;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
 .filters-button-group li {
@@ -152,8 +214,13 @@ address { font-style: normal; }
     margin-left: 40px;
 }
 
-.filters-button-group li a.active { color: #F96699; }
-.tm-gallery { margin: -10px; }
+.filters-button-group li a.active {
+    color: #F96699;
+}
+
+.tm-gallery {
+    margin: -10px;
+}
 
 .tm-gallery-item {
     border-radius: 12px;
@@ -168,28 +235,39 @@ address { font-style: normal; }
 
 .tm-gallery-item img {
     width: 220px;
-    height: 220px;    
+    height: 220px;
 }
 
 @media (max-width: 940px) {
-    .filters-button-group { text-align: left; }
+    .filters-button-group {
+        text-align: left;
+    }
 }
 
 @media (max-width: 680px) {
-    .tm-contact { flex-direction: column; }
-    
+    .tm-contact {
+        flex-direction: column;
+    }
+
     .tm-contact-form-container,
     .tm-contact-info,
     .tm-contact-header {
         width: 100%;
     }
 
-    .tm-contact-form-container { margin-bottom: 20px; }
-    .tm-contact-info { margin-bottom: 30px; }
+    .tm-contact-form-container {
+        margin-bottom: 20px;
+    }
+
+    .tm-contact-info {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 545px) {
-    .tm-about { flex-direction: column; }
+    .tm-about {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 489px) {
@@ -198,20 +276,53 @@ address { font-style: normal; }
         margin: 1%;
         height: auto;
     }
-    
+
     .tm-gallery-item img {
         width: 100%;
         height: auto;
     }
 }
 
-.tm-p-50 { padding: 50px; }
-.tm-mb-0 { margin-bottom: 0; }
-.tm-mb-30 { margin-bottom: 30px }
-.tm-mb-40 { margin-bottom: 40px; }
-.tm-mb-50 { margin-bottom: 50px; }
-.tm-mb-80 { margin-bottom: 80px; }
-.tm-bgcolor-1 { background-color: #F96699; }
-.tm-bgcolor-2 { background-color: #38CCCC; }
-.tm-bgcolor-3 { background-color: #99CCCC; }
-.tm-border-rounded { border-radius: 15px; }
+.tm-p-50 {
+    padding: 50px;
+}
+
+.tm-mb-0 {
+    margin-bottom: 0;
+}
+
+.tm-mb-30 {
+    margin-bottom: 30px
+}
+
+.tm-mb-40 {
+    margin-bottom: 40px;
+}
+
+.tm-mb-50 {
+    margin-bottom: 50px;
+}
+
+.tm-mb-80 {
+    margin-bottom: 80px;
+}
+
+.tm-bgcolor-1 {
+    background-color: #F96699;
+}
+
+.tm-bgcolor-2 {
+    background-color: #38CCCC;
+}
+
+.tm-bgcolor-3 {
+    background-color: #99CCCC;
+}
+
+.tm-bgcolor-4 {
+    background-color: #9C27B0;
+}
+
+.tm-border-rounded {
+    border-radius: 15px;
+}
